@@ -2,15 +2,15 @@
 
 
 <h2>Description</h2>
-
+I successfully implemented the Wazuh Open Source SIEM (Security Information and Event Management) system by following precise instructions for installation on an Ubuntu virtual machine. This project showcases my expertise in deploying robust security solutions and demonstrates a hands-on understanding of Wazuh's capabilities. 
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>Linux Terminal</b> 
-- <b>Curl</b>
-- <b>Bash</b>
+- Linux Terminal
+- Curl
+- Bash
 
 <h2>Environments Used </h2>
 
