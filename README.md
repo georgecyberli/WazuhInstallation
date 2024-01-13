@@ -15,6 +15,7 @@ I played a pivotal role in fortifying our company's cybersecurity posture by suc
 <h2>Environments Used </h2>
 
 - <b>Ubuntu</b> 22.04.3
+- <b>Wazuh</b> 4.7
 
 <h2>Program walk-through:</h2>
 
