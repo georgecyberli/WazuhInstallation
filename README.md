@@ -33,6 +33,8 @@ curl -sO https://packages.wazuh.com/4.7/config.yml
 
 ```
 
+<br />
+<br />
 Then check the created files with the command
 
 ```diff
@@ -40,8 +42,9 @@ Then check the created files with the command
 ls
 
 ```
-
-
+<img src="https://i.imgur.com/D6Pdzt5.png" height="80%" width="80%" alt="Show Created Files"/>
+<br />
+<br />
 
 Edit ./config.yml and replace the node, server, and dashboard names (Replacing the names are optional) and IP values with the corresponding names and IP addresses. In my case, I used the same IP address as my Ubuntu VM for the node, server, and dashboard.
 
@@ -50,7 +53,9 @@ Edit ./config.yml and replace the node, server, and dashboard names (Replacing t
 nano ./config.yml
 
 ```
-
+<img src="https://i.imgur.com/2TI3nbB.png" height="80%" width="80%" alt="Show Created Files"/>
+<br />
+<br />
 
 
 Then run the following command to create the certificates:
@@ -60,7 +65,9 @@ Then run the following command to create the certificates:
 sudo bash ./wazuh-certs-tool.sh -A
 
 ```
-
+<img src="https://i.imgur.com/E5CZXPg.png" height="80%" width="80%" alt="Show Created Files"/>
+<br />
+<br />
 
 
 <h3>Step 2: Wazuh installation</h3>
@@ -79,7 +86,9 @@ After installation, you will see the admin username and password to access wazuh
 
 The wazuh-install.files.tar has been created.
 
-
+<img src="https://i.imgur.com/pGVLfrc.png" height="80%" width="80%" alt="Show Created Files"/>
+<br />
+<br />
 
 Finally, connect to Wazuh Dashboard in your browser with the IP address assigned to your dashboard as follows:
 
@@ -88,7 +97,7 @@ https://xxx.xxx.xxx.xxx:443
 
 Then, login with the administrative credentials provided after the Wazuh installation.
 
-
+Note: It should be able to be connected from a different computer in the same network as the Ubuntu server.
 
 
 
