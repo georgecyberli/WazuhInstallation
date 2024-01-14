@@ -108,13 +108,9 @@ Then, login with the administrative credentials provided after the Wazuh install
 <b>Note: It should be able to be connected from a different computer in the same network as the Ubuntu server.</b>
 
 
+<br />
+<br />
+<br />
 
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
+
+<a href="https://github.com/georgecyberli/WazuhSIEMproject" class="button icon back">Previous Page</a>
