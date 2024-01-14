@@ -101,9 +101,9 @@ https://xxx.xxx.xxx.xxx:443
 
 ```
 
-
 Then, login with the administrative credentials provided after the Wazuh installation.
 
+<img src="https://i.imgur.com/FP4GFMa.png" height="80%" width="80%" alt="Show Created Files"/>
 
 <b>Note: It should be able to be connected from a different computer in the same network as the Ubuntu server.</b>
 
