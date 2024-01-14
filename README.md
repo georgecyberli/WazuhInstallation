@@ -83,7 +83,9 @@ curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh && sudo bash ./wazuh-in
 
 After installation, you will see the admin username and password to access wazuh console (Save it for later).
 
-
+<img src="https://i.imgur.com/zYrV8nz.png" height="80%" width="80%" alt="Show Created Files"/>
+<br />
+<br />
 
 The wazuh-install.files.tar has been created.
 
@@ -93,12 +95,17 @@ The wazuh-install.files.tar has been created.
 
 Finally, connect to Wazuh Dashboard in your browser with the IP address assigned to your dashboard as follows:
 
+```diff
+
 https://xxx.xxx.xxx.xxx:443
+
+```
 
 
 Then, login with the administrative credentials provided after the Wazuh installation.
 
-Note: It should be able to be connected from a different computer in the same network as the Ubuntu server.
+
+<b>Note: It should be able to be connected from a different computer in the same network as the Ubuntu server.</b>
 
 
 
